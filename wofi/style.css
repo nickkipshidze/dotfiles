@@ -1,0 +1,47 @@
+/* ________________________________________________________ */
+/*    _______ _  __    ____               _   ___      __   */
+/*   <  / __ \ |/ /   / __ \___ _   __   / | / (_)____/ /__ */
+/*   / / / / /   /   / / / / _ \ | / /  /  |/ / / ___/ //_/ */
+/*  / / /_/ /   |   / /_/ /  __/ |/ /  / /|  / / /__/ ,<    */
+/* /_/\____/_/|_|  /_____/\___/|___/  /_/ |_/_/\___/_/|_|   */
+/* ________________________________________________________ */
+
+window {
+	margin: 5px;
+	background-color: rgba(0, 0, 0, 0.9);
+	border-radius: 10px;
+}
+
+#input {
+	color: #ffffff;
+	background-color: #303030;
+	border: 1px solid #404040;
+	border-radius: 10px;
+	margin: 5px;
+}
+
+#inner-box {
+	border-radius: 3px 3px 3px 3px;
+	background-color: #303030;
+	border: 1px solid #404040;
+	border-radius: 10px;
+}
+
+#outer-box {
+	margin: 5px;
+	border-radius: 10px;
+	overflow: hidden;
+}
+
+#scroll {
+	margin: 5px;
+}
+
+#text {
+	margin: 5px;
+	color: #e1f2f5;
+}
+
+#entry {
+	border-radius: 10px;
+}
