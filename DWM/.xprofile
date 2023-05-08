@@ -1,0 +1,11 @@
+#!/bin/bash
+
+xbindkeys
+nitrogen --restore
+
+while true; do
+	xsetroot -name "Vol: $(pulsemixer --get-volume) | Light: $(light)% | $(date +"%F %r") | $(cat /sys/class/power_supply/BAT0/capacity)% | DWM"
+	sleep .1s
+done &
+
+xcompmgr -c &

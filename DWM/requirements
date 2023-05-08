@@ -1,0 +1,16 @@
+Packages:
+	dmenu
+	nitrogen
+	pulsemixer
+	xorg-xsetroot
+	xorg-xbacklight
+	xrog-xsetroot
+	xbindkeys
+	light
+	xcompmgr
+
+Files:
+	/etc/X11/xorg.conf.d/30-touchpad.conf
+	~/.xinitrc
+	~/.xprofile
+	~/.xbindkeysrc
