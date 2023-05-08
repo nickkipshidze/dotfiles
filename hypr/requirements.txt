@@ -1,0 +1,6 @@
+hyprland
+hyprpaper
+waybar-hyprland
+wofi
+pulseaudio
+brightnessctl
