@@ -5,6 +5,7 @@ colorscheme codedark
 
 set ttymouse=sgr
 set mouse=a
+
 set encoding=UTF-8
 
 set wildmenu
