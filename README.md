@@ -5,6 +5,7 @@
 
 ## Hyprland
 ![workspace preview](screenshots/workspace-1.png)
+I am trying to escape GNOME...
 
 <br>
 
