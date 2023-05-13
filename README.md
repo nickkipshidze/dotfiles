@@ -4,13 +4,13 @@
 <br>
 
 ## Hyprland
-![workspace preview](screenshots/workspace-1.png)
+![workspace preview](screenshots/workspace.png)
 I am trying to escape GNOME...
 
 <br>
 
 ## Vim
-![vim preview](screenshots/vim-1.png)
+![vim preview](screenshots/vim.png)
 I have vim plugins in my .vim directory I didnt upload the .vim directory becuase I didnt want to add someone else's repos in my dotfiles. You can get the plugins yourself:
 
 - vim-code-dark
@@ -24,11 +24,11 @@ I have vim plugins in my .vim directory I didnt upload the .vim directory becuas
 <br>
 
 ## Tmux
-![tmux preview](screenshots/tmux-1.png)
+![tmux preview](screenshots/tmux.png)
 original: https://github.com/gpakosz/.tmux
 
 <br>
 
 ## GIMP
-![GIMP preview](screenshots/gimp-1.png)
+![GIMP preview](screenshots/gimp.png)
 I didnt write this one but I really like it. :)
