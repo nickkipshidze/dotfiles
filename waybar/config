@@ -2,7 +2,7 @@
     "layer": "top",
     "position": "top",
     "height": 30,
-    "spacing": 0,
+    "spacing": 5,
     "modules-left": ["wlr/workspaces", "wlr/mode", "wlr/scratchpad"],
     "modules-center": ["hyprland/window"],
     "modules-right": ["idle_inhibitor", "pulseaudio", "network", "cpu", "memory", "temperature", "backlight", "keyboard-state", "battery", "battery#bat2", "clock", "tray"],
