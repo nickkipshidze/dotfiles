@@ -6,6 +6,7 @@
 #waybar {
   color: #b8b8b8;
   background: #282828;
+  border-radius: 10px;
 }
 
 #workspaces {
