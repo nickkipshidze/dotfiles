@@ -49,12 +49,15 @@
 }
 
 #mode, #battery, #cpu, #memory, #network, #pulseaudio, #idle_inhibitor, #backlight, #custom-storage, #custom-spotify, #custom-weather, #custom-mail, #clock, #temperature {
-  margin: 4px 2px;
-  padding: 0 6px;
-  padding-right: 12px;
+  margin: 4px 0px;
+  padding: 0 12px 0 8px;
   background-color: #383838;
   border-radius: 4px;
   min-width: 20px;
+}
+
+#battery {
+  padding-right: 16px;
 }
 
 #pulseaudio.muted {
@@ -66,7 +69,7 @@
 }
 
 #clock {
-  margin-left: 12px;
+  margin-left: 4px;
   margin-right: 4px;
   background-color: transparent;
 }
