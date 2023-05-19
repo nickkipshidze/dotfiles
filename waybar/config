@@ -3,9 +3,9 @@
     "position": "top",
     "height": 30,
     "spacing": 5,
-    "modules-left": ["wlr/workspaces", "wlr/mode", "wlr/scratchpad"],
+    "modules-left": ["wlr/workspaces"],
     "modules-center": ["hyprland/window"],
-    "modules-right": ["idle_inhibitor", "pulseaudio", "network", "cpu", "memory", "temperature", "backlight", "keyboard-state", "battery", "battery#bat2", "clock", "tray"],
+    "modules-right": ["idle_inhibitor", "pulseaudio", "network", "cpu", "memory", "temperature", "disk", "backlight", "battery", "clock", "tray"],
     "margin": "15 15 0 15",
     "keyboard-state": {
         "numlock": true,
@@ -15,16 +15,6 @@
             "locked": "",
             "unlocked": ""
         }
-    },
-    "wlr/mode": {
-        "format": "<span style=\"italic\">{}</span>"
-    },
-    "wlr/scratchpad": {
-        "format": "{icon} {count}",
-        "show-empty": false,
-        "format-icons": ["", ""],
-        "tooltip": true,
-        "tooltip-format": "{app}: {title}"
     },
     "idle_inhibitor": {
         "format": "{icon}",
@@ -37,6 +27,7 @@
         "spacing": 10
     },
     "clock": {
+        "interval": 1,
         "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
         "format-alt": "{:%Y-%m-%d}",
         "format": "{:%r}"
@@ -51,26 +42,28 @@
     "temperature": {
         "critical-threshold": 80,
         "format": "{temperatureC}°C {icon}",
-        "format-icons": ["", "", ""]
+        "format-icons": ["", "", "", ""]
+    },
+    "disk": {
+        "interval": 30,
+        "format": "{free}"
     },
     "backlight": {
         "format": "{percent}% {icon}",
         "format-icons": ["", "", "", "", "", "", "", "", ""]
     },
     "battery": {
+        "interval": 5,
         "states": {
             "good": 95,
             "warning": 30,
             "critical": 15
         },
         "format": "{capacity}% {icon}",
-        "format-charging": "{capacity}% ",
+        "format-charging": "{capacity}% ",
         "format-plugged": "{capacity}% ",
         "format-alt": "{time} {icon}",
         "format-icons": ["", "", "", "", ""]
-    },
-    "battery#bat2": {
-        "bat": "BAT2"
     },
     "network": {
         "format-wifi": "{essid} ({signalStrength}%) ",
