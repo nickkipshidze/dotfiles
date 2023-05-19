@@ -48,7 +48,7 @@
   border-left: none;
 }
 
-#mode, #battery, #cpu, #memory, #network, #pulseaudio, #idle_inhibitor, #backlight, #custom-storage, #custom-spotify, #custom-weather, #custom-mail, #clock, #temperature {
+#mode, #battery, #cpu, #memory, #network, #pulseaudio, #idle_inhibitor, #backlight, #custom-storage, #custom-spotify, #custom-weather, #custom-mail, #clock, #temperature, #disk {
   margin: 4px 0px;
   padding: 0 12px 0 8px;
   background-color: #383838;
@@ -76,4 +76,8 @@
 
 #temperature.critical {
   color: #a16946;
+}
+
+#idle_inhibitor {
+  margin-left: 30px;
 }
