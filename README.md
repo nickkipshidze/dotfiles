@@ -1,11 +1,16 @@
 # dotfiles
-### configuration files written by me.
+### Configuration files written by me.
 
 <br>
 
 ## Hyprland
 ![workspace preview](screenshots/workspace.png)
-I am trying to escape GNOME...
+This is my daily driver. I found waybar configuration on r/unixporn and modified it.
+For waybar icons make sure you have `otf-hermit-nerd` installed:
+
+```shell
+$ sudo pacman -S otf-hermit-nerd
+```
 
 <br>
 
