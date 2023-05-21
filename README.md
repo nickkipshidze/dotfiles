@@ -37,3 +37,4 @@ original: https://github.com/gpakosz/.tmux
 ## GIMP
 ![GIMP preview](screenshots/gimp.png)
 I didnt write this one but I really like it. :)
+Configuration: [Diolinux/PhotoGIMP](https://github.com/Diolinux/PhotoGIMP/tree/master/.var/app/org.gimp.GIMP/config/GIMP/2.10)
