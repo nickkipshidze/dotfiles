@@ -1,0 +1,14 @@
+hyprland                      # Wayland compositor
+hyprpaper                     # Set wallapaper
+waybar-hyprland               # Wayland bar
+wofi                          # Application launcher
+
+pulseaudio                    # Control audio
+brightnessctl                 # Control brightness
+
+wlroots                       # Fixes screen recording with OBS
+xdg-desktop-portal-hyprland   # Fixes screen sharing on browsers
+
+grim                          # Screenshot utility
+slurp                         # Region selection tool
+wl-clipboard                  # Copy screenshot to clipboard
