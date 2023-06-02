@@ -10,6 +10,8 @@ window {
 	margin: 5px;
 	background-color: rgba(0, 0, 0, 0.9);
 	border-radius: 10px;
+	font-family: Hermit;
+	font-size: 13px;
 }
 
 #input {
