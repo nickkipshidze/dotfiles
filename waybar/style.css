@@ -1,6 +1,8 @@
 * {
   transition: none;
   box-shadow: none;
+  font-family: Hermit;
+  font-size: 13px;
 }
 
 #waybar {
@@ -54,10 +56,6 @@
   background-color: #383838;
   border-radius: 4px;
   min-width: 20px;
-}
-
-#battery {
-  padding-right: 16px;
 }
 
 #pulseaudio.muted {
