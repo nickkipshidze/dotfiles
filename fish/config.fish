@@ -47,5 +47,5 @@ end
 #end
 
 function fish_greeting
-    colorscript random | head -n 9
+	python nsplash.py
 end
