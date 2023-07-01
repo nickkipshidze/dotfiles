@@ -49,3 +49,5 @@ end
 function fish_greeting
 	python nsplash.py
 end
+
+fish_add_path -m ~/.local/bin
