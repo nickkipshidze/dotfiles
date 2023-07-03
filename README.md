@@ -16,15 +16,6 @@ $ sudo pacman -S otf-hermit-nerd
 
 ## Vim
 ![vim preview](screenshots/vim.png)
-I have vim plugins in my .vim directory I didnt upload the .vim directory becuase I didnt want to add someone else's repos in my dotfiles. You can get the plugins yourself:
-
-- vim-code-dark
-- AutoComplPop
-- nerdtree
-- vim-devicons
-- vim-eclim
-- vim-nerdtree-syntax-highlight
-- vim-visual-multi
 
 <br>
 
