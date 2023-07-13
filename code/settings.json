@@ -17,11 +17,11 @@
     "editor.rulers": [
         {"column": 79, "color": "#494949"}
     ],
-
-    "workbench.colorTheme": "Material Theme Darker High Contrast",
-    "workbench.preferredDarkColorTheme": "Default Dark+",
+    
+    "workbench.colorTheme": "Default Dark+",
     "workbench.startupEditor": "none",
     "workbench.colorCustomizations": {
+        "statusBar.foreground": "#ffffff",
         "statusBar.background": "#1A1A1A", 
         "statusBar.noFolderBackground": "#212121", 
         "statusBar.debuggingBackground": "#263238"
