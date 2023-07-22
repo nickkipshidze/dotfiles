@@ -16,9 +16,12 @@
 }
 
 #workspaces button {
-  margin: 4px 0;
-  padding: 0 6px;
+  font-size: 1px;
+  margin: 4px 4px 4px 0;
+  padding: 1px 6px 1px 6px;
   color: #d8d8d8;
+  background: #313131;
+  border-radius: 50%;
 }
 
 /*
@@ -27,7 +30,6 @@
 */
 
 #workspaces button.focused {
-  border-radius: 4px;
   background-color: #383838;
 }
 
