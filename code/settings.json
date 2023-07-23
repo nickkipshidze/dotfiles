@@ -18,7 +18,7 @@
         {"column": 79, "color": "#494949"}
     ],
     
-    "workbench.colorTheme": "Default Dark+",
+    "workbench.colorTheme": "One Dark Pro Darker",
     "workbench.startupEditor": "none",
     "workbench.colorCustomizations": {
         "statusBar.foreground": "#ffffff",
@@ -51,5 +51,7 @@
 
     "emmet.includeLanguages": {
         "django-html": "html"
-    }
+    },
+    
+    "extensions.ignoreRecommendations": true
 }
