@@ -7,7 +7,7 @@
 
 #waybar {
   color: #b8b8b8;
-  background: #282828;
+  background: rgba(21, 22, 30, 0.5);
   border-radius: 10px;
 }
 
@@ -20,42 +20,19 @@
   margin: 4px 4px 4px 0;
   padding: 1px 6px 1px 6px;
   color: #d8d8d8;
-  background: #313131;
+  background: rgba(75, 80, 110, 0.2);
   border-radius: 50%;
 }
 
-/*
-#workspaces button.visible {
-}
-*/
-
-#workspaces button.focused {
-  background-color: #383838;
+#workspaces button.active {
+  /* border: 2px solid #7aa2f7; */
+  background: rgba(75, 80, 110, 0.5);
 }
 
-#workspaces button.urgent {
-  color: rgba(238, 46, 36, 1);
-}
-
-#tray {
-  margin: 4px 16px 4px 4px;
-  border-radius: 4px;
-  background-color: #383838;
-}
-
-#tray * {
-  padding: 0 6px;
-  border-left: 1px solid #181818;
-}
-
-#tray *:first-child {
-  border-left: none;
-}
-
-#mode, #battery, #cpu, #memory, #network, #pulseaudio, #idle_inhibitor, #backlight, #custom-storage, #custom-spotify, #custom-weather, #custom-mail, #clock, #temperature, #disk {
+#mode, #battery, #cpu, #memory, #network, #pulseaudio, #idle_inhibitor, #backlight, #custom-storage, #clock, #temperature, #disk {
   margin: 4px 0px;
   padding: 0 12px 0 8px;
-  background-color: #383838;
+  background: rgba(30, 32, 43, 0.7);
   border-radius: 4px;
   min-width: 20px;
 }
