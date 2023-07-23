@@ -4,7 +4,7 @@
 <br>
 
 ## Hyprland
-![workspace preview](screenshots/workspace.png)
+![workspace preview](screenshots/workspace-v2.png)
 This is my daily driver. I found waybar configuration on r/unixporn and modified it.
 For waybar icons make sure you have `otf-hermit-nerd` installed:
 
