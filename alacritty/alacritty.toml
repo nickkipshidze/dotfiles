@@ -1,0 +1,121 @@
+## ________________________________________________________
+##    _______ _  __    ____               _   ___      __
+##   <  / __ \ |/ /   / __ \___ _   __   / | / (_)____/ /__
+##   / / / / /   /   / / / / _ \ | / /  /  |/ / / ___/ //_/
+##  / / /_/ /   |   / /_/ /  __/ |/ /  / /|  / / /__/ ,<
+## /_/\____/_/|_|  /_____/\___/|___/  /_/ |_/_/\___/_/|_|
+## ________________________________________________________
+
+[colors]
+transparent_background_colors = false
+
+[colors.bright]
+black = "#5A5A5A"
+blue = "#97A4F7"
+cyan = "#68F2E0"
+green = "#6CE05C"
+magenta = "#C495F0"
+red = "#F01578"
+white = "#FFFFFF"
+yellow = "#F3F79E"
+
+[colors.cursor]
+cursor = "CellForeground"
+text = "CellBackground"
+
+[colors.dim]
+black = "#5A5A5A"
+blue = "#97A4F7"
+cyan = "#68F2E0"
+green = "#6CE05C"
+magenta = "#C495F0"
+red = "#F01578"
+white = "#FFFFFF"
+yellow = "#F3F79E"
+
+[colors.footer_bar]
+background = "#c5c8c6"
+foreground = "#1d1f21"
+
+[colors.hints.end]
+background = "#1d1f21"
+foreground = "#e9ff5e"
+
+[colors.hints.start]
+background = "#e9ff5e"
+foreground = "#1d1f21"
+
+[colors.line_indicator]
+background = "None"
+foreground = "None"
+
+[colors.normal]
+black = "#121212"
+blue = "#3449D1"
+cyan = "#00aaff"
+green = "#29CF13"
+magenta = "#8400FF"
+red = "#C70031"
+white = "#E2D1E3"
+yellow = "#D8E30E"
+
+[colors.primary]
+background = "#131313"
+bright_foreground = "#eaeaea"
+dim_foreground = "#828482"
+foreground = "#d6dbe5"
+
+[colors.search.focused_match]
+background = "#000000"
+foreground = "#ffffff"
+
+[colors.search.matches]
+background = "#ffffff"
+foreground = "#000000"
+
+[colors.selection]
+background = "CellForeground"
+text = "CellBackground"
+
+[colors.vi_mode_cursor]
+cursor = "CellForeground"
+text = "CellBackground"
+
+[cursor]
+blink_interval = 650
+blink_timeout = 5
+thickness = 0.2
+unfocused_hollow = true
+vi_mode_style = "None"
+
+[cursor.style]
+blinking = "On"
+shape = "Underline"
+
+[font]
+size = 11
+
+[font.bold]
+family = "hermit"
+style = "Bold"
+
+[font.bold_italic]
+family = "hermit"
+style = "Bold Italic"
+
+[font.italic]
+family = "hermit"
+style = "Italic"
+
+[font.normal]
+family = "hermit"
+style = "Regula"
+
+[window]
+decorations = "Full"
+dynamic_title = false
+opacity = 0.5
+
+[window.padding]
+x = 5
+y = 5
