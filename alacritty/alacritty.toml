@@ -7,7 +7,7 @@
 ## ________________________________________________________
 
 [colors]
-transparent_background_colors = false
+transparent_background_colors = true
 
 [colors.bright]
 black = "#5A5A5A"
