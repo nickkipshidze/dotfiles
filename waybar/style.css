@@ -39,6 +39,14 @@
   min-width: 20px;
 }
 
+#tray {
+  margin-right: 10px;
+}
+
+#clock {
+  margin-right: 4px;
+}
+
 #pulseaudio.muted {
   color: #a16946;
 }
