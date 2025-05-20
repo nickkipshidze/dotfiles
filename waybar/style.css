@@ -1,64 +1,54 @@
 * {
-  transition: none;
-  box-shadow: none;
-  font-family: Hermit;
-  font-size: 13px;
+    transition: none;
+    box-shadow: none;
+    font-family: Hermit;
+    font-size: 13px;
 }
 
 #waybar {
-  color: #ffffff;
-  background: rgba(30, 34, 39, 0.8);
-  border: 1px solid rgba(255, 255, 255, 0.2);
-  border-radius: 10px;
+    color: #ffffff;
+    background: rgba(30, 34, 39, 0.9);
+    border-radius: 12px;
 }
 
 #workspaces {
-  margin: 0 4px;
+    margin: 0 15px;
 }
 
 #workspaces button {
-  font-size: 1px;
-  margin: 4px 4px 4px 0;
-  padding: 1px 7px 1px 7px;
-  color: #d8d8d8;
-  background: rgba(0, 0, 0, 0.0);
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  border-radius: 20px;
+    padding: 5px 10px 0px 10px;
+    color: #d8d8d8;
+    background: rgba(0, 0, 0, 0.0);
+    border-bottom: 5px solid rgba(0, 0, 0, 0);
+    border-radius: 0;
 }
 
 #workspaces button.active {
-  background: rgba(121, 123, 134, 0.2);
+    background: rgba(121, 123, 134, 0.2);
+    border-bottom: 5px solid rgba(131, 132, 133, 0.8);
 }
 
-#mode, #battery, #cpu, #memory, #network, #pulseaudio, #idle_inhibitor, #backlight, #custom-storage, #clock, #temperature, #disk {
-  margin: 4px 0px;
-  padding: 5px 16px 5px 10px;
-  background: #23272E;
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  border-radius: 10px;
-  min-width: 20px;
+#mode, #battery, #cpu, #memory, #network, #pulseaudio, #backlight, #custom-storage, #clock, #temperature, #disk {
+    margin: 4px 0px;
+    padding: 5px 16px 5px 10px;
+    background: #15181d;
+    border-radius: 0px;
+    min-width: 20px;
 }
 
-#tray {
-  margin-right: 10px;
-}
+#pulseaudio { border-radius: 12px 0 0 12px; }
+#clock { border-radius: 0 12px 12px 0; }
 
-#clock {
-  margin-right: 4px;
-}
+#window { padding: 0 100px; }
 
-#pulseaudio.muted {
-  color: #a16946;
-}
+#clock { margin-right: 4px; }
 
-#pulseaudio.bluetooth {
-  color: #86c1b9;
-}
+#pulseaudio.muted { color: #a16946; }
+#pulseaudio.bluetooth { color: #86c1b9; }
+#temperature.critical { color: #a16946; }
 
-#temperature.critical {
-  color: #a16946;
-}
-
+/* Hacky Arch logo LOL */
 #idle_inhibitor {
-  margin-left: 30px;
+    margin-left: 15px;
+    font-size: 200%;
 }
